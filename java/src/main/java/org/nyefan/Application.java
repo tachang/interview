@@ -13,7 +13,7 @@ public class Application {
     }
 
     @GetMapping("/")
-    public String hello() {
+    public String landingPage() {
         return "Landing Page";
     }
 

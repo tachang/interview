@@ -1,0 +1,17 @@
+#python
+build/
+dist/
+instance/
+*.egg-info
+venv/
+
+#idea
+.idea/
+*.iml
+
+#project
+helm/
+.dockerignore
+.gitignore
+Dockerfile
+README.md

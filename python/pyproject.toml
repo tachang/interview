@@ -5,6 +5,7 @@ classifiers = [
 ]
 dependencies = [
     "flask",
+    "click"
 ]
 name = "interview-python"
 readme = "README.md"
