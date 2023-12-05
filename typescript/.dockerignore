@@ -1,0 +1,14 @@
+#java
+dist/
+node_modules/
+
+#idea
+.idea/
+*.iml
+
+#project
+helm/
+.dockerignore
+.gitignore
+Dockerfile
+README.md

@@ -1,0 +1,14 @@
+#java
+build/
+.gradle/
+
+#idea
+.idea/
+*.iml
+
+#project
+helm/
+.dockerignore
+.gitignore
+Dockerfile
+README.md
