@@ -2,10 +2,9 @@
 
 #### Helpful Tools
 * a version 17 jdk
+* `gradle`
 * `docker`
 * `helm`
-* `yq` (optional)
-* `gradle` (optional)
 
 #### Helpful Commands
 
