@@ -13,7 +13,7 @@ spec:
         app: {{ .Chart.Name }}
     spec:
       containers:
-        - name: java-interview
+        - name: interview-java
           image: "nyefan/interview/java:latest"
           ports:
             - name: http
