@@ -16,7 +16,3 @@ The technical interview will be conducted according to the following rough sched
     -  8m    discuss a project the candidate is proud of
     -  8m    discuss a disaster the candidate has caused
     -  2m    goodbyes
-
-TODO: create dockerfile and helm chart for each service
-TODO: define an inmemorydao for each service which has a connectionStatus() function
-TODO: create library catalogue apps
