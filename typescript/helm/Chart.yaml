@@ -1,0 +1,3 @@
+apiVersion: v2
+name: interview-typescript
+version: 0.0.1

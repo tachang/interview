@@ -1,4 +1,4 @@
-# Typescript-Interview
+# Java-Interview
 
 #### Helpful Tools
 * a version 17 jdk

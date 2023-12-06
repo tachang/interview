@@ -1,15 +1,17 @@
 import express, { Request, Response } from 'express'
+import {router as bookRouter} from "./Routes/book";
 
 const app = express();
-const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 
-app.get('/health', (req: Request, res: Response) => {
-    res.send('Ok');
+app.get('/', (req: Request, res: Response) => {
+    res.send('LandingPage');
 });
 
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+app.use('/api/v1/books', bookRouter)
+
+app.listen(3000, () => {
+    console.log('Server running at http://localhost:3000');
 });
