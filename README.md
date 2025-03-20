@@ -2,10 +2,12 @@
 
 The interviewee will receive a link to this repository when the technical interview is scheduled.  The interviewee is
 invited to check out the repository and review it at their leisure prior to the interview.  The interview will be 
-conducted with the interviewee sharing their screen in a recorded zoom call.  The interviewee is requested to come ready
-to make changes to the project of their choice (java, python, or typescript) by having the tools listed in the
+conducted with the interviewee sharing their screen in a recorded video call.  The interviewee is requested to come 
+ready to make changes to the project of their choice (java, python, or typescript) by having the tools listed in the
 project's README.md installed.  This recording will be shared internally for candidates who advance to the culture fit
 interview, and it will be deleted once a hire/no hire decision is made.
+
+Camera is expected to be on, and AI tooling is not allowed (but search engines and your IDE of choice are).
 
 The technical interview will be conducted according to the following rough schedule:
 
