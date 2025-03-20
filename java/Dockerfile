@@ -1,3 +1,4 @@
+# Assume ARTIFACTORY_TOKEN is used by `./gradlew bootJar`
 ARG ARTIFACTORY_TOKEN
 FROM openjdk:17-oracle
 

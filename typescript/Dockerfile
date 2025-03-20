@@ -1,3 +1,4 @@
+# Assume NPM_TOKEN is used by `npm install`
 ARG NPM_TOKEN
 FROM node:21
 

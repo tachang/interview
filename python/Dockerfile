@@ -1,5 +1,6 @@
+# Assume ARTIFACTORY_TOKEN is used by `pip install`
 ARG ARTIFACTORY_TOKEN
-FROM python:3 as build
+FROM python:3
 
 WORKDIR /app
 ENV ARTIFACTORY_TOKEN=${ARTIFACTORY_TOKEN}
