@@ -1,9 +1,10 @@
-# Assume ARTIFACTORY_TOKEN is used by `pip install`
-ARG ARTIFACTORY_TOKEN
 FROM python:3
 
 WORKDIR /app
-ENV ARTIFACTORY_TOKEN=${ARTIFACTORY_TOKEN}
+
+# Assume ARTIFACTORY_TOKEN is used by `pip install`
+ARG ARTIFACTORY_TOKEN
+ENV ARTIFACTORY_TOKEN=$ARTIFACTORY_TOKEN
 
 COPY . .
 RUN python -m pip install -e .

@@ -1,8 +1,9 @@
-# Assume ARTIFACTORY_TOKEN is used by `./gradlew bootJar`
-ARG ARTIFACTORY_TOKEN
 FROM openjdk:17-oracle
 
 WORKDIR /app
+
+# Assume ARTIFACTORY_TOKEN is used by `./gradlew bootJar`
+ARG ARTIFACTORY_TOKEN
 ENV ARTIFACTORY_TOKEN=${ARTIFACTORY_TOKEN}
 
 COPY . .
