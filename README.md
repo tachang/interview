@@ -1,20 +1,35 @@
-### Process
+# Technical Interview Process
 
-The interviewee will receive a link to this repository when the technical interview is scheduled.  The interviewee is
-invited to check out the repository and review it at their leisure prior to the interview.  The interview will be 
-conducted with the interviewee sharing their screen in a recorded video call.  The interviewee is requested to come 
-ready to make changes to the project of their choice (java, python, or typescript) by having the tools listed in the
-project's README.md installed.  This recording will be shared internally for candidates who advance to the culture fit
-interview, and it will be deleted once a hire/no hire decision is made.
+## Overview
+This repository contains the materials for your upcoming technical interview. Please review it thoroughly before your scheduled interview time.
 
-Camera is expected to be on, and AI tooling is not allowed (but search engines and your IDE of choice are).
+## Preparation
+- Clone this repository to your local machine
+- Review the code in your preferred language (Java, Python, or TypeScript)
+- Install the required tools listed in the project's README.md
+- Be ready to share your screen during the interview
 
-The technical interview will be conducted according to the following rough schedule:
+## Interview Format
+The interview will be conducted via video call with your camera enabled. The session will be recorded for internal review purposes only and deleted after a hiring decision is made.
 
-    -  2m    introductions
-    - 15m    implement basic feature in the language of the project
-    - 15m    implement basic improvement of the project build
-    - 10m    discuss next steps, high level implementation and tradeoffs
-    -  8m    discuss a project the candidate is proud of
-    -  8m    discuss a disaster the candidate has caused
-    -  2m    goodbyes
+## What to Expect
+The 60-minute interview will follow this structure:
+1. **Introductions** (2 minutes)
+2. **Coding Exercise** (15 minutes)
+   - Implement a basic feature in your chosen language
+3. **Build Improvement** (15 minutes)
+   - Make improvements to the project's build system
+4. **Architecture Discussion** (10 minutes)
+   - Discuss next steps, implementation approaches, and tradeoffs
+5. **Personal Project** (8 minutes)
+   - Share a project you're proud of and your contributions
+6. **Challenge Discussion** (8 minutes)
+   - Describe a significant technical challenge you've overcome
+7. **Wrap-up** (2 minutes)
+
+## Guidelines
+- Search engines and your preferred IDE are permitted
+- AI coding assistants are not allowed during the interview
+- Come prepared with questions about the role or company
+
+We look forward to seeing your technical skills in action!
